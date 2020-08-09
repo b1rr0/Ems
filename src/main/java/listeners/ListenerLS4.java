@@ -43,7 +43,7 @@ public class ListenerLS4 extends ListenerAdapter
                     count++;
                 }
             });
-            author.openPrivateChannel().queue((channel) ->{channel.sendMessage("===============Конец Экзамена============").queue();});
+            author.openPrivateChannel().queue((channel) ->{channel.sendMessage("===============Конец Экзамена)============").queue();});
         }
     }
 
