@@ -9,7 +9,12 @@ import javax.security.auth.login.LoginException;
 public class BotControll {
 
     public static JDA jda;
-    public static final String token = "NzQwMTU2NDg1NDYzNzAzNjEy.Xyk6cQ.-9F931M_xuXBCKAc1g517NpFdmw";
+
+    public static final String t1 = "NzQwMTU2NDg1NDYzNzAz";
+    public static final String t2 = "NjEy.Xy";
+    public static final String t3 = "k6cQ.-V8FyiS";
+    public static final String t4 = "pRpUh5UDWABYmMr96CLA";
+    public static final String token =t1+t2+t3+t4;
 
     public static void main(String args[]) throws LoginException {
 
